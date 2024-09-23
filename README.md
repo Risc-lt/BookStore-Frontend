@@ -204,7 +204,7 @@ React 使用 JSX 来定义组件，支持两种方式：类组件和函数式组
 + [useSearchParams](https://reactrouter.com/en/main/hooks/use-search-params)：获取 URL query 参数。
 + [useNavigate](https://reactrouter.com/en/main/hooks/use-navigate)：用于进行页面跳转。
 + [useParams](https://reactrouter.com/en/main/hooks/use-params)：获取 URL 路径参数（例如 "/path/:id"，你可以通过以下方式获取该参数）
-    
+  
     ```javascript
     const {id} = useParams(); 
     ```
@@ -398,22 +398,3 @@ React 使用 JSX 来定义组件，支持两种方式：类组件和函数式组
 + 使用 Typescript 代替 Javascript。
 + 使用 [useSWR](https://swr.vercel.app/zh-CN) / [React Query](https://cangsdarm.github.io/react-query-web-i18n/react/getstarted/quick-start/) + [axios](https://www.npmjs.com/package//axios) 代替 `fetch` 方案；
 + 使用 [React.createContext](https://zh-hans.react.dev/reference/react/createContext) React原生方法，或者 [Redux](https://cn.redux.js.org/)、[Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction#first-create-a-store) 等全局状态管理器更方便地传递上下文。（为什么要使用这些？了解React开发之中的 [Props Drilling](https://www.geeksforgeeks.org/what-is-prop-drilling-and-how-to-avoid-it/) 问题）
-
-## 致谢
-
-感谢以下用户为本仓库做出的贡献：
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Ayanami1314" style="display:inline-block;width:80px">
-        <img src="https://github.com/Ayanami1314.png" width="64px;" alt="Ayanami1314"/><br/>
-        <sub><b>Ayanami1314</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Okabe-Rintarou-0/BookStore-Frontend&type=Date)](https://star-history.com/#Okabe-Rintarou-0/BookStore-Frontend&Date)
